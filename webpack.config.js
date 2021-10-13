@@ -7,7 +7,7 @@ const filename = (ext) =>
   isDev ? `[name].${ext}` : `[name].[contenthash].${ext}`;
 
 module.exports = {
-  context: path.resolve(__dirname, "src"),
+  context: path.resolve(__dirname, "app"),
   mode: "development",
   entry: "./js/main.js",
   output: {
