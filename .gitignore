@@ -1,0 +1,9 @@
+/node_modules/
+/build/
+/.git/
+/**/.git/
+/**/**.zip
+/**/**.7z
+/**/Thumbs.db
+/**/*.DS_Store
+/**/package-lock.json
